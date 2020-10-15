@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T1j-M7-pgQ">
-                                <rect key="frame" x="121" y="20" width="133" height="131"/>
+                                <rect key="frame" x="121" y="5" width="133" height="146"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8H-6o-K2V">
@@ -50,7 +50,7 @@
                             <constraint firstItem="shb-go-T2W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JkY-5h-dp7"/>
                             <constraint firstItem="P8H-6o-K2V" firstAttribute="leading" secondItem="Sr1-Ck-gc6" secondAttribute="leading" id="OFW-Ol-gEm"/>
                             <constraint firstItem="T1j-M7-pgQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="Q9y-a9-3fc"/>
-                            <constraint firstItem="T1j-M7-pgQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Zuk-yb-pk5"/>
+                            <constraint firstItem="T1j-M7-pgQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Zuk-yb-pk5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="shb-go-T2W" secondAttribute="bottom" constant="29" id="asA-dL-Wh1"/>
                             <constraint firstItem="P8H-6o-K2V" firstAttribute="trailing" secondItem="Sr1-Ck-gc6" secondAttribute="trailing" id="bur-at-7aI"/>
                             <constraint firstItem="T1j-M7-pgQ" firstAttribute="leading" secondItem="P8H-6o-K2V" secondAttribute="leading" id="dWQ-PJ-xHy"/>

@@ -17,10 +17,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        redSignalView.layer.cornerRadius = 66
+        yellowSignalView.layer.cornerRadius = 66
+        greenSignalView.layer.cornerRadius = 60
+        startButton.layer.cornerRadius = 10
+        redSignalView.alpha = 0.3
+        yellowSignalView.alpha = 0.3
+        greenSignalView.alpha = 0.3
     }
 
     @IBAction func startButtonTransitional() {
+        startButton.setTitle("NEXT", for: .normal)
     }
     
 }
